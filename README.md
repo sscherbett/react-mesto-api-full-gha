@@ -5,12 +5,12 @@
   
 Пожалуйста, прикрепите в это описание ссылку на сайт, размещенный на Яндекс.Облаке.
 
-Адрес репозитория: https://github.com/...
+Адрес репозитория: hhttps://github.com/sscherbett/react-mesto-api-full-gha.git
 
 ## Ссылки на проект
 
-IP-адрес x.x.x.x
+IP 51.250.17.141
 
-Frontend https://...
+Frontend https://scherbett.frontend.nomoreparties.co/
 
-Backend https://...
+Backend https://api.scherbett.frontend.nomoreparties.co/
