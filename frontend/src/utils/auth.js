@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:4000';
+const BASE_URL = 'https://api.scherbett.frontend.nomoreparties.co';
 
 function getResponseData(res) {
   if (!res.ok) {

@@ -8,7 +8,7 @@ const { requestLogger, errorLogger } = require('./middlewares/logger');
 
 const { PORT = 4000, DB_URL = 'mongodb://127.0.0.1:27017/mestodb' } = process.env;
 const app = express();
-app.use(cors({ origin: 'http://localhost:3001' }));
+app.use(cors({ origin: ['http://localhost:3001', 'http://scherbett.frontend.nomoreparties.co', 'https://scherbett.frontend.nomoreparties.co'] }));
 
 app.use(express.json());
 app.use(requestLogger);
