@@ -9,6 +9,7 @@
 
 ## Ссылки на проект
 
+IP 51.250.17.141
 
 Frontend https://scherbett.frontend.nomoreparties.co/
 
