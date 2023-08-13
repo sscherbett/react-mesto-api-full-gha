@@ -1,0 +1,13 @@
+.edit-form__input {
+  border: 0;
+  padding: 0;
+  padding-bottom: 7px;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  font-size: 14px;
+  line-height: 1.21;
+  font-family: inherit;
+}
+
+.edit-form__input:focus {
+  outline: none;
+}

@@ -1,0 +1,9 @@
+.edit-form__input_type_auth {
+    background-color: transparent;
+    border-bottom: solid 2px #ccc;
+    color: #ccc;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+  }

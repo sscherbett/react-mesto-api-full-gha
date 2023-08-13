@@ -1,0 +1,11 @@
+.popup__close-button_type_full-image {
+  top: -40px;
+  left: auto;
+  right: -40px;
+}
+
+@media (max-width: 530px) {
+  .popup__close-button_type_full-image {
+    right: 0px;
+  }
+}

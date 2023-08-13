@@ -1,0 +1,16 @@
+.elements__items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 282px);
+    grid-column-gap: 17px;
+    grid-row-gap: 22px;
+    justify-content: center;
+  }
+  @media (max-width: 320px) {
+    .elements__items {
+      padding: 0 19px;
+      row-gap: 20px;
+    }
+  }

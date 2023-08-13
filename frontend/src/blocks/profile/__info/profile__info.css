@@ -1,0 +1,19 @@
+.profile__info {
+    display: grid;
+    grid-template-areas:
+      "profile-name pen-button"
+      "profile-occupation .";
+    align-content: center;
+    column-gap: 18px;
+    row-gap: 8px;
+  }
+  @media (max-width: 652px) {
+    .profile__info {
+      padding-top: 29px;
+      column-gap: 12px;
+      width: 100%;
+      box-sizing: border-box;
+      grid-template-columns: 189px 18px;
+      padding-left: 45px;
+    }
+  }

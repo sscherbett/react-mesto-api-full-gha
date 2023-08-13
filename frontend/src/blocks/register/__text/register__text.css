@@ -1,0 +1,12 @@
+.register__text {
+  margin: 0;
+  text-decoration: none;
+  color: #fff;
+  padding-top: 16px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.register__text:hover {
+  opacity: 0.6;
+}
