@@ -12,6 +12,11 @@ app.use(cors({ origin: ['http://localhost:3001', 'http://scherbett.frontend.nomo
 
 app.use(express.json());
 app.use(requestLogger);
+app.get('/crash-test', () => {
+  setTimeout(() => {
+    throw new Error('Сервер сейчас упадёт');
+  }, 0);
+});
 app.use(routes);
 app.use(errorLogger);
 
